@@ -1,8 +1,12 @@
 # cloud-setup
 This repo provides a quick repeatable setup for multi-cloud environments.
 I use this setup because it is Cloud-agnostic( it can be instantiated in any cloud environment)
+To use this repository on windows in vscode,
+--Ensure you have python installed using python --version. This video shows you how to install python. (https://www.youtube.com/watch?v=Kn1HF3oD19c&t=80s)
+--Ensure you have make installed on windows using make --version . This resource shows you how to install make on windows. I prefer to use choclatey. It was the easiest for me to use. (https://www.technewstoday.com/install-and-use-make-in-windows)
 
-When you clone this repository, create a virtual environment, and make any change to the readme file. Push to github and the workflow will install current project dependencies, run tests and inform you of any failures.
+When you clone this repository, create a virtual environment. In the terminal, CD into the cloud project directory, and run the make command. 
+
 
 This scaffolding includes the following files. You can make changes to suit your needs.
 
